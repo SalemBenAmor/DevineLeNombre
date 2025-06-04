@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#test {
+    background-color: #00cd46;
+    border: 2px solid black;
+    width: 50%;
+    height: 50vh;
+    margin: 50px auto;
+    text-align: center;
+    align-content: center;
+}
+
+P {
+    font-size: 1.5em;
+}
+
+#dingue {
+    display: inline-block;
+}
+
+#reset {
+    display: none;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #b794f6;
+    color: #1c00db;
+    font-weight: 600;
+    font-size: 1.3em;
+    transition: background 0.3s;
+}
+
+button:hover {
+    color: #b794f6;
+    background-color: #1c00db;
+    transition: background 0.3s;
+}
